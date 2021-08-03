@@ -1,6 +1,6 @@
 html {
     background-color: rgb(182, 96, 243);
-    background: url("https://cdn.christen-tautz.de/static/bg.jpg") no-repeat center center fixed;
+    background: url("./static/bg.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 #bg_blur {
-    background: url("https://cdn.christen-tautz.de/static/bgblur.jpg") no-repeat center center fixed;
+    background: url("./static/bg.jpg") no-repeat center center fixed;
     max-width: 10000px;
     position: absolute;
     background-size: cover;
