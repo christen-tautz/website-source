@@ -1,0 +1,98 @@
+html {
+    background-color: rgb(182, 96, 243);
+    background: url("https://cdn.christen-tautz.de/static/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.error {
+    color: red !important;
+}
+
+.notif {
+    color: green !important;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+}
+
+.img_fit {
+    object-fit: contain;
+}
+
+.fullscreen {
+    left: 0px !important;
+    right: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navigationbar {
+    background-color: rgba(54, 255, 47, 0.45);
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigationbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 300ms;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    font-family: Roboto;
+}
+
+.navigationbar a:hover {
+    background-color: rgba(30, 130, 25, 0.60);
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.navigationbar a.active {
+    background-color: rgba(30, 190, 25, 0.45);
+    color: #000000;
+}
+
+.navigationbar a.active:hover {
+    background-color: rgba(25, 80, 25, 0.75);
+    color: #f2f2f2;
+}
+
+#bg_blur {
+    background: url("https://cdn.christen-tautz.de/static/bgblur.jpg") no-repeat center center fixed;
+    max-width: 10000px;
+    position: absolute;
+    background-size: cover;
+    left: 20%;
+    right: 20%;
+    margin-top: 0px;
+    color: rgb(172, 172, 172);
+    text-align: center;
+    font-family: Roboto;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#link_style:link {
+    color: #ff00ea;
+}
+
+#link_style:visited {
+    color: #ff0062;
+}
