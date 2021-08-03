@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://christen-tautz.de/api/upload" />
     <meta name="theme-color" content="#8aff86">
 
-    <title>I Love Catgirls API Upload</title>
+    <title>API Upload</title>
 
     <?php if ($_GET['status'] == "success") {
         array_push($notifs, "Successfully uploaded!");
@@ -27,6 +27,7 @@
         <div class="navigationbar">
             <a onclick="location.href='/'">Home</a>
             <a class="active" href='/api'>API</a>
+            <a onclick="location.href='/github' ">Github</a>
             <a onclick="location.href='/contact' ">Contact</a>
         </div>
 
