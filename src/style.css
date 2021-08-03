@@ -73,7 +73,7 @@ body {
 }
 
 #bg_blur {
-    background: url("./static/bg.jpg") no-repeat center center fixed;
+    background: url("./static/bgblur.jpg") no-repeat center center fixed;
     max-width: 10000px;
     position: absolute;
     background-size: cover;
