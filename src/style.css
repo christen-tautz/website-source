@@ -7,6 +7,12 @@ body {
     margin: 0 auto;
 }
 
+tr, td {
+    border: 1px solid white;
+    table-layout: fixed;
+    width: 200px;
+}
+
 .error {
     color: red !important;
 }
@@ -69,6 +75,11 @@ body {
 .navigationbar a.active:hover {
     background-color: rgba(0,133,5,0.6);
     color: #f2f2f2;
+}
+
+.overwrite {
+    left: 10% !important;
+    right: 10% !important;
 }
 
 #bg_blur {

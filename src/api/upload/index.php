@@ -27,6 +27,7 @@
         <div class="navigationbar">
             <a onclick="location.href='/'">Home</a>
             <a class="active" href='/api'>API</a>
+            <a onclick="location.href='/stundenplan' ">Stundenplan</a>
             <a onclick="location.href='/github' ">Github</a>
             <a onclick="location.href='/contact' ">Contact</a>
         </div>
