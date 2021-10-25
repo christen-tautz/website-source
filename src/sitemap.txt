@@ -3,3 +3,4 @@ https://christen-tautz.de/api
 https://christen-tautz.de/api/upload
 https://christen-tautz.de/github
 https://christen-tautz.de/contact
+https://christen-tautz.de/stundenplan
